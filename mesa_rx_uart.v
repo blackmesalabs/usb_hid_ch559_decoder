@@ -6,6 +6,14 @@
 -- Description: A UART that is fixed baud and receive only. This design is a
 --              derivative of the autobauding rx+tx mesa_uart.v module.
 -- Language:    Verilog-2001 
+-- License:     This project is licensed with the CERN Open Hardware Licence
+--              v1.2.  You may redistribute and modify this project under the
+--              terms of the CERN OHL v.1.2. (http://ohwr.org/cernohl).
+--              This project is distributed WITHOUT ANY EXPRESS OR IMPLIED
+--              WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY
+--              AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN OHL
+--              v.1.2 for applicable Conditions.
+--
 --
 -- RXD    \START/<D0><D1><D2><..><D7>/STOP
 --

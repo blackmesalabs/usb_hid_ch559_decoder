@@ -5,6 +5,13 @@
 -- Author:      khubbard
 -- Description: Decode the 400,000 baud USB HID stream of mouse and/or keyboard
 -- Language:    Verilog-2001 
+-- License:     This project is licensed with the CERN Open Hardware Licence
+--              v1.2.  You may redistribute and modify this project under the
+--              terms of the CERN OHL v.1.2. (http://ohwr.org/cernohl).
+--              This project is distributed WITHOUT ANY EXPRESS OR IMPLIED
+--              WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY
+--              AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN OHL
+--              v.1.2 for applicable Conditions.
 --
 -- WARNING : The CH559 module is unable to overdrive the Spartan3 soft pulldown.
 --
