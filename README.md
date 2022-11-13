@@ -13,3 +13,15 @@ outputs 16bit data for keyboard events and 32bit data for mouse events.
 Note that Gamecontroller decoding wasn't successful. The gamecontrollers that were
 tested output a continous stream of data which most likely overruns the 400,000 baud
 UART on the ch559 module.
+
+Python:
+  usb.py  : Decodes serial stream to text
+  usb.ini : Config file for baud and com port
+Example captures:
+  log_logitech_wired_mouse.txt
+  log_wired_keyboard.txt
+  log_wired_mouse_ms2.txt
+Verilog: 
+  usb_hid_ch559_decoder.v : Decoder for keyboard and mouse streams
+  usb_hid_ch559_xface.v   : Hierarchy file
+  mesa_rx_uart.v          : Receive only UART module
